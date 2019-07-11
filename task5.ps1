@@ -1,0 +1,1 @@
+﻿Import-Csv C:\Users\struitt\Desktop\Users.csv | where {$_.SITE -like "NYC*"} | Select-Object EmailAddress,UserPrincipalName,Site
